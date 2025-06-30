@@ -193,7 +193,8 @@
                     </thead>
                     <tbody>
                   <?php
-                  include 'koneksi.php';
+                  require_once __DIR__ . '/../config.php'; // pastikan path tepat
+                  $koneksi = getMysqliConnection();
                   $no = 1;
                   $query = "SELECT * FROM penyakit ORDER BY id DESC";
                   $result = mysqli_query($koneksi, $query);

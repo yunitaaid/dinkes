@@ -1,11 +1,7 @@
 <?php 
-// Konfigurasi koneksi database
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "dinkes";
+require_once 'config.php';
+$conn = getMysqliConnection();
 
-$conn = new mysqli($host, $user, $password, $database);
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }

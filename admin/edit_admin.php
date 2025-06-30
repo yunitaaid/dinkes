@@ -14,7 +14,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 -->
 <?php
-include 'koneksi.php';
+require_once __DIR__ . '/../config.php'; // pastikan path tepat
+$koneksi = getMysqliConnection();
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];

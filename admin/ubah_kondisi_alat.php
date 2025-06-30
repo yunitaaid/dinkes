@@ -1,5 +1,6 @@
 <?php
-include 'koneksi.php';
+require_once __DIR__ . '/../config.php'; // pastikan path tepat
+$koneksi = getMysqliConnection();
 
 $id = $_GET['id'] ?? '';
 $kondisi = $_GET['kondisi'] ?? '';

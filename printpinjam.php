@@ -106,12 +106,8 @@
                 <?php 
                  
                 // Koneksi ke database
-                $host = "localhost";
-                $user = "root";
-                $password = "";
-                $database = "dinkes";
-
-                $conn = new mysqli($host, $user, $password, $database);
+                require_once 'config.php';
+                $conn = getMysqliConnection();
                 if ($conn->connect_error) {
                     die("Koneksi gagal: " . $conn->connect_error);
                 }

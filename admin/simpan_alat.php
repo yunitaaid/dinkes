@@ -1,5 +1,6 @@
 <?php
-include 'koneksi.php';
+require_once __DIR__ . '/../config.php'; // pastikan path tepat
+$koneksi = getMysqliConnection();
 
 $nama = $_POST['nama'] ?? '';
 $kondisi = $_POST['kondisi'] ?? '';

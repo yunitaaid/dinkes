@@ -1,6 +1,7 @@
 <?php
 session_start();
-include 'koneksi.php'; // pastikan file ini berisi koneksi ke database
+require_once __DIR__ . '/../config.php'; // pastikan path tepat
+$koneksi = getMysqliConnection();
 
 $username = $_POST['email'] ?? ''; // email form = input[name=email]
 $password = $_POST['password'] ?? '';
