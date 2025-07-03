@@ -69,7 +69,7 @@
     if (data.trim().startsWith('OK_REDIRECT')) {
       const id = data.trim().split(':')[1];
       
-      window.location.href = "/dinkes/printpinjam?id=" + id;// atau ganti dengan URL yang sesuai
+      window.location.href = "/printpinjam?id=" + id;// atau ganti dengan URL yang sesuai
       return;
     }
 

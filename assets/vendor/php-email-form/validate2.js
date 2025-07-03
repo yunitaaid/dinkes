@@ -69,7 +69,7 @@
     if (data.trim().startsWith('OK_REDIRECT')) {
       const id = data.trim().split(':')[1];
       alert("Permohonan Berhasil Dikirim. Tunggu Admin menghubungi Anda melalui WhatsApp untuk Skrining Lebih Lanjut.");
-      window.location.href = "/dinkes/dashboard"; // atau ganti dengan URL yang sesuai
+      window.location.href = "/dashboard"; // atau ganti dengan URL yang sesuai
       return;
     }
 

@@ -17,7 +17,7 @@ function getMysqliConnection() {
     static $conn = null;
 
     if ($conn === null) {
-        $env = loadEnv(__DIR__ . '/.env');
+        $env = loadEnv(__DIR__ . '/../.env');
 
         $host = $env['DB_HOST'];
         $user = $env['DB_USER'];

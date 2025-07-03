@@ -115,7 +115,7 @@
                     <i class="bi bi-clipboard-data"></i>
                     <h4>Layanan Peminjaman Alat Kesehatan</h4>
                     <p>Pinjam Alat Kesehatan seperti Kursi Roda, Kasur, hingga Alat Bantu Jalan ada disini</p>
-                    <a href="/dinkes/pinjamalat" class="more-btn"><span>Daftar Disini</span> </i></a>
+                    <a href="/pinjamalat" class="more-btn"><span>Daftar Disini</span> </i></a>
                   </div>
                   
                 </div><!-- End Icon Box -->
@@ -125,7 +125,7 @@
                     <i class="bi bi-gem"></i>
                     <h4>Layanan Cek Kesehatan di Labkes</h4>
                     <p>MCU Gratis di Lab Kesehatan Kota Semarang dengan Kuota 20 orang perhari</p>
-                    <a href="/dinkes/ceklab" class="more-btn"><span>Daftar Disini</span> </i></a>
+                    <a href="/ceklab" class="more-btn"><span>Daftar Disini</span> </i></a>
                   </div>
                 </div><!-- End Icon Box -->
 
@@ -134,7 +134,7 @@
                     <i class="bi bi-inboxes"></i>
                     <h4>Layanan Pencegahan dan Pengendalian Penyakit</h4>
                     <p>Fasilitasi Sosialisasi Kesehatan, Donor Darah, serta Fogging dengan kuota 2 layanan perhari</p>
-                    <a href="/dinkes/penyakit" class="more-btn"><span>Daftar Disini</span> </i></a>
+                    <a href="/penyakit" class="more-btn"><span>Daftar Disini</span> </i></a>
                   </div>
                 </div><!-- End Icon Box -->
 

@@ -67,7 +67,7 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="/dinkes/dashboard" >Home<br></a></li>
+            <li><a href="/dashboard" >Home<br></a></li>
            
             <li><a class="no-print" href="#" onclick="printDiv('halamancetak')">Cetak Registrasi</a></li>
           </ul>

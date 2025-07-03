@@ -6,36 +6,36 @@ $path = parse_url($request, PHP_URL_PATH);
 // Routing sederhana berdasarkan path
 switch ($path) {
     
-    case '/dinkes/':
-    case '/dinkes/dashboard':
+    case '/':
+    case '/dashboard':
         require 'dashboard.php';
         break;
         
-    case '/dinkes/pinjamalat':
+    case '/pinjamalat':
         require 'pinjamalat.php';
         break;
 
-    case '/dinkes/ceklab':
+    case '/ceklab':
         require 'ceklab.php';
         break;
     
-    case '/dinkes/penyakit':
+    case '/penyakit':
         require 'penyakit.php';
         break;
     
-    case '/dinkes/printceklab':
+    case '/printceklab':
         require 'printceklab.php';
         break;
     
-    case '/dinkes/printpenyakit':
+    case '/printpenyakit':
         require 'printpenyakit.php';
         break;
     
-    case '/dinkes/printpinjam':
+    case '/printpinjam':
         require 'printpinjam.php';
         break;
 
-    case '/dinkes/admin':
+    case '/admin':
         require 'admin/login.php';
         break;
 

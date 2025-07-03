@@ -68,7 +68,7 @@
       // Tambahkan pengecekan khusus untuk redirect
       if (data.trim().startsWith('OK_REDIRECT')) {
         const id = data.trim().split(':')[1]; // ambil ID dari "OK_REDIRECT:123"
-        window.location.href = "/dinkes/printceklab?id=" + id;
+        window.location.href = "/printceklab?id=" + id;
         return;
       }
 

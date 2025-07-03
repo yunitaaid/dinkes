@@ -39,7 +39,7 @@
     <div class="container">
         <h1>404</h1>
         <p>Maaf, halaman yang Anda cari tidak ditemukan.</p>
-        <p><a href="/dinkes/">Kembali ke Beranda</a></p>
+        <p><a href="/">Kembali ke Beranda</a></p>
     </div>
 </body>
 </html>
