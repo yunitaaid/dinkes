@@ -60,7 +60,9 @@
                       </div>
                     </form>
                   </div>
-                  
+                  <p class="mb-0">Username & Pass hint</p>
+                  <p class="mb-0">Username : admin@semarangkota.go.id</p>
+                  <p class="mb-0">Password : admin</p>
                 </div>
               </div>
               <div class="absolute top-0 right-0 flex-col justify-center hidden w-6/12 h-full max-w-full px-3 pr-0 my-auto text-center flex-0 lg:flex">
